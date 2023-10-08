@@ -18,4 +18,5 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-variation-settings: var(--main-font),sans-serif;
+  background-color: var(--theme-background);
 }
