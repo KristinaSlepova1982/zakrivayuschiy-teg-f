@@ -10,6 +10,7 @@
   --content-font-weight: 465;
   --theme-background:#000;
   --accent-color:#00CC14;
+  --theme-background-image: url("../images/dark.png");
 }
 
 :root.theme-light {
@@ -17,6 +18,7 @@
   --content-font-weight: 400;
   --theme-background:#FFF;
   --accent-color:#000;
+  --theme-background-image: url("../images/light.png");
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,5 +27,6 @@
     --content-font-weight: 400;
     --theme-background:#FFF;
     --accent-color:#000;
+    --theme-background-image: url("../images/light.png");
   }
 }

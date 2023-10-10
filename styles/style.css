@@ -17,8 +17,19 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: var(--main-font),sans-serif;
+  font-variation-settings: var(--main-font), sans-serif;
   background-color: var(--theme-background);
+  background-image:
+  repeating-linear-gradient(to left, #d3d3d3, transparent, #d3d3d3, transparent, #d3d3d3 2px), var(--theme-background-image),
+  repeating-linear-gradient(to top, #e7e7e7, #1a1a1a, #e7e7e7, #1a1a1a, #e7e7e7 2px);
+  background-attachment: fixed;
+  background-size: cover;
+
 }
+
+
+
+
+
 
 
