@@ -8,5 +8,9 @@
    --theme-background:#000;
    --accent-color:#00CC14;
    --theme-background-image: url("../images/dark.png");
+   --vertical-gradient-color:#000000;
+   --horizontal-gradient-color-one:#007f0c;
+   --horizontal-gradient-color-two:#004306;
+
 
  }

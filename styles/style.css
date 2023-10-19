@@ -20,16 +20,139 @@
   font-variation-settings: var(--main-font), sans-serif;
   background-color: var(--theme-background);
   background-image:
-  repeating-linear-gradient(to left, #d3d3d3, transparent, #d3d3d3, transparent, #d3d3d3 2px), var(--theme-background-image),
-  repeating-linear-gradient(to top, #e7e7e7, #1a1a1a, #e7e7e7, #1a1a1a, #e7e7e7 2px);
+  repeating-linear-gradient(
+      to left,
+      var(--vertical-gradient-color),
+      transparent,
+      var(--vertical-gradient-color),
+      transparent,
+      var(--vertical-gradient-color)
+      2px
+  ),
+  repeating-linear-gradient(
+      to top,
+      var(--horizontal-gradient-color-one),
+      var(--horizontal-gradient-color-two),
+      var(--horizontal-gradient-color-one),
+      var(--horizontal-gradient-color-two),
+      var(--horizontal-gradient-color-one)
+      2px
+  ),
+  var(--theme-background-image);
   background-attachment: fixed;
   background-size: cover;
 
 }
+.content-section {
+  display: flex;
+  max-width: 696px;
+  background-color: var(--theme-background);
+  margin: 0 auto;
 
+}
 
+.header {
+  margin-block-start: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-block-end: 107px;
+}
 
+.header-title {
+  color: var(--accent-color);
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: clamp(4.0625rem, 4.9868rem + -3.9437vw, 1.4375rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 136px;
+}
 
+.header-content {
+  color: var(--accent-color);
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
 
+.header__theme-menu {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.theme-menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.theme-menu__button {
+  color: var(--accent-color);
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.theme-menu__button:disabled,
+.theme-menu__button:hover {
+  opacity: 0.6;
+}
+
+.theme-menu__button:disabled::before {
+  content: '▶';
+  margin-left: -28px;
+}
+
+.article-title {
+  color: var(--accent-color);
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  gap: 25px;
+}
+
+.article-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}
+
+.article-text {
+  color: var(--accent-color);
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.card__like-button {
+  outline: 2px solid var(--accent-color);
+  padding: 12.5px 37px;
+  color: var(--accent-color);
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+}
 
 

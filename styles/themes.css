@@ -11,6 +11,9 @@
   --theme-background:#000;
   --accent-color:#00CC14;
   --theme-background-image: url("../images/dark.png");
+  --vertical-gradient-color:#000000;
+  --horizontal-gradient-color-one:#007f0c;
+  --horizontal-gradient-color-two:#004306;
 }
 
 :root.theme-light {
@@ -19,6 +22,9 @@
   --theme-background:#FFF;
   --accent-color:#000;
   --theme-background-image: url("../images/light.png");
+  --vertical-gradient-color:#d3d3d3;
+  --horizontal-gradient-color-one:#e7e7e7;
+  --horizontal-gradient-color-two:#1a1a1a;
 }
 
 @media (prefers-color-scheme: light) {
@@ -28,5 +34,8 @@
     --theme-background:#FFF;
     --accent-color:#000;
     --theme-background-image: url("../images/light.png");
+    --vertical-gradient-color:#d3d3d3;
+    --horizontal-gradient-color-one:#e7e7e7;
+    --horizontal-gradient-color-two:#1a1a1a;
   }
 }
