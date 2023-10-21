@@ -104,6 +104,26 @@
 .theme-menu__button:disabled,
 .theme-menu__button:hover {
   opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.theme-menu__button:disabled {
+  pointer-events: none;
+}
+
+.theme-menu__button:focus-visible {
+  border-bottom: 2px solid var(--accent-color);
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.button__focus-visible-animation {
+  transition: 0.5s;
+  transform: translateX(100%);
+}
+
+.theme-menu__button:focus-visible .button__focus-visible-animation {
+  transform: translateX(0);
 }
 
 .theme-menu__button:disabled::before {
