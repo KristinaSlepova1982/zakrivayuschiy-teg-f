@@ -185,3 +185,23 @@
   height: 21px;
 }
 
+.article__image-label  {
+  position: relative;
+  z-index: 2;
+  color: var(--accent-color);
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.article__image {
+
+}
+
+.article__image-content {
+  position: absolute;
+  z-index: 1;
+}
