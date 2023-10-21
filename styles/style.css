@@ -228,18 +228,14 @@
 .common__button::after {
   content: "";
   position: absolute;
-  bottom:0;
-  left:0;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background-color: var(--accent-color);
-  opacity: 0;
+  opacity: 1;
   transition: opacity 300ms, transform 300ms ease-in-out;
   z-index: 1;
-}
-
-.common__button::after {
-  opacity: 1;
   transform: scaleX(0);
   transform-origin: left;
 }
@@ -249,8 +245,21 @@
 }
 
 .card__icon-button {
-  max-width: 27px;
-  max-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 2.375rem;
+  max-height: 2.375rem;
+}
+
+.like-icon {
+  max-width: inherit;
+  max-height: inherit;
+}
+
+.card__icon-button:focus-visible {
+  outline: 2px solid var(--accent-color);
+  transition: outline-color 300ms ease-in-out;
 }
 
 .footer {
