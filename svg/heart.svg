@@ -1,19 +1,10 @@
 <svg
+        id="like"
         xmlns="http://www.w3.org/2000/svg"
         width="27" height="24"
-        fill="currentColor"
+        fill="var(--accent-color)"
 
 >
-    <style>
-        :root {
-        fill: #00CC14;
-        }
-        @media (prefers-color-scheme: dark) {
-        :root {
-        fill: #00CC14;
-        }
-        }
-    </style>
 
     <path d="M9 0H6V3H9V0Z"/>
     <path d="M3 3H0V6H3V3Z"/>

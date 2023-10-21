@@ -132,7 +132,8 @@
 .article-buttons {
   display: flex;
   justify-content: end;
-  gap: 5px;
+  align-items: center;
+  gap: 24px;
 }
 
 .article-text {
@@ -155,4 +156,7 @@
   line-height: 90%;
 }
 
-
+.card__icon-button {
+  max-width: 27px;
+  max-height: 24px;
+}
