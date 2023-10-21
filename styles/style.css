@@ -19,15 +19,13 @@
   min-block-size: 100dvb;
   font-variation-settings: var(--main-font), sans-serif;
   background-color: var(--theme-background);
-  background-image:
-  repeating-linear-gradient(
+  background-image: repeating-linear-gradient(
       to left,
       var(--vertical-gradient-color),
       transparent,
       var(--vertical-gradient-color),
       transparent,
-      var(--vertical-gradient-color)
-      2px
+      var(--vertical-gradient-color) 2px
   ),
   repeating-linear-gradient(
       to top,
@@ -35,14 +33,14 @@
       var(--horizontal-gradient-color-two),
       var(--horizontal-gradient-color-one),
       var(--horizontal-gradient-color-two),
-      var(--horizontal-gradient-color-one)
-      2px
+      var(--horizontal-gradient-color-one) 2px
   ),
   var(--theme-background-image);
   background-attachment: fixed;
   background-size: cover;
 
 }
+
 .content-section {
   display: flex;
   max-width: 696px;
@@ -146,8 +144,11 @@
 }
 
 .card__like-button {
-  outline: 2px solid var(--accent-color);
   padding: 12.5px 37px;
+}
+
+.common__button {
+  outline: 2px solid var(--accent-color);
   color: var(--accent-color);
   font-family: 'Press Start 2P', sans-serif;
   font-size: 14px;
@@ -155,8 +156,32 @@
   font-weight: 400;
   line-height: 90%;
 }
-
 .card__icon-button {
   max-width: 27px;
   max-height: 24px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block-start: 54px;
+  padding-block-end: 105px;
+}
+
+.button__save {
+  display: flex;
+  align-items: center;
+  max-width: 335px;
+  max-height: 51px;
+  gap: 8px;
+  padding: 1.16rem 1.31rem 1.16rem 1.19rem;
+
+}
+
+.floppy_icon {
+  width: 21px;
+  height: 21px;
+}
+
