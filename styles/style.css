@@ -156,6 +156,7 @@
   font-weight: 400;
   line-height: 90%;
 }
+
 .card__icon-button {
   max-width: 27px;
   max-height: 24px;
@@ -185,9 +186,18 @@
   height: 21px;
 }
 
-.article__image-label  {
-  position: relative;
+.article__image-label-wrapper {
+  position: absolute;
   z-index: 2;
+  width: inherit;
+  max-width: 669px;
+  display: flex;
+  justify-content: end;
+  padding-block-start: 1.56rem;
+  padding-right: 1.56rem;
+}
+
+.article__image-label {
   color: var(--accent-color);
   font-family: 'Press Start 2P', sans-serif;
   font-size: 0.875rem;
@@ -195,13 +205,16 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  opacity: 0.5;
+  mix-blend-mode: hard-light;
+  -webkit-text-stroke: 1px var(--theme-background);
 }
 
 .article__image {
-
+  width: 100%;
 }
 
 .article__image-content {
-  position: absolute;
+  position: relative;
   z-index: 1;
 }
