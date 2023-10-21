@@ -11,6 +11,7 @@
    --vertical-gradient-color:#000000;
    --horizontal-gradient-color-one:#007f0c;
    --horizontal-gradient-color-two:#004306;
+   --floppy-color:var(--accent-color);
 
 
  }
