@@ -1,17 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
- :root {
-   --main-font: Inter;
-   --accent-font: 'Press Start 2P';
-   --title-font-weight: 785;
-   --content-font-weight: 465;
-   --theme-background:#000;
-   --accent-color:#00CC14;
-   --theme-background-image: url("../images/dark.png");
-   --vertical-gradient-color:#000000;
-   --horizontal-gradient-color-one:#007f0c;
-   --horizontal-gradient-color-two:#004306;
-   --floppy-color:var(--accent-color);
+:root {
+  --main-font: Inter;
+  --accent-font: 'Press Start 2P';
+  --title-font-weight: 785;
+  --content-font-weight: 465;
+  --theme-background: #000;
+  --accent-color: #00CC14;
+  --theme-background-image: url("../images/dark.png");
+  --vertical-gradient-color: #000000;
+  --horizontal-gradient-color-one: #007f0c;
+  --horizontal-gradient-color-two: #004306;
+  --floppy-color: var(--accent-color);
+  --heart-sparks-color: #FF0000;
+  --like-animation-main-color: #FF0000;
+}
 
-
- }
+::backdrop {
+  --color-backdrop: #000
+}

@@ -5,40 +5,54 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-:root.theme-dark{
+:root.theme-dark {
   --title-font-weight: 785;
   --content-font-weight: 465;
-  --theme-background:#000;
-  --accent-color:#00CC14;
+  --theme-background: #000;
+  --accent-color: #00CC14;
   --theme-background-image: url("../images/dark.png");
-  --vertical-gradient-color:#000000;
-  --horizontal-gradient-color-one:#007f0c;
-  --horizontal-gradient-color-two:#004306;
-  --floppy-color:var(--accent-color);
+  --vertical-gradient-color: #000000;
+  --horizontal-gradient-color-one: #007f0c;
+  --horizontal-gradient-color-two: #004306;
+  --floppy-color: var(--accent-color);
 }
 
 :root.theme-light {
   --title-font-weight: 700;
   --content-font-weight: 400;
-  --theme-background:#FFF;
-  --accent-color:#000;
+  --theme-background: #FFF;
+  --accent-color: #000;
   --theme-background-image: url("../images/light.png");
-  --vertical-gradient-color:#d3d3d3;
-  --horizontal-gradient-color-one:#e7e7e7;
-  --horizontal-gradient-color-two:#1a1a1a;
-  --floppy-color:var(--accent-color);
+  --vertical-gradient-color: #d3d3d3;
+  --horizontal-gradient-color-one: #e7e7e7;
+  --horizontal-gradient-color-two: #1a1a1a;
+  --floppy-color: var(--accent-color);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --title-font-weight: 700;
     --content-font-weight: 400;
-    --theme-background:#FFF;
-    --accent-color:#000;
+    --theme-background: #FFF;
+    --accent-color: #000;
     --theme-background-image: url("../images/light.png");
-    --vertical-gradient-color:#d3d3d3;
-    --horizontal-gradient-color-one:#e7e7e7;
-    --horizontal-gradient-color-two:#1a1a1a;
-    --floppy-color:var(--accent-color);
+    --vertical-gradient-color: #d3d3d3;
+    --horizontal-gradient-color-one: #e7e7e7;
+    --horizontal-gradient-color-two: #1a1a1a;
+    --floppy-color: var(--accent-color);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-font-weight: 700;
+    --content-font-weight: 400;
+    --theme-background: #FFF;
+    --accent-color: #000;
+    --theme-background-image: url("../images/light.png");
+    --vertical-gradient-color: #d3d3d3;
+    --horizontal-gradient-color-one: #e7e7e7;
+    --horizontal-gradient-color-two: #1a1a1a;
+    --floppy-color: var(--accent-color);
   }
 }

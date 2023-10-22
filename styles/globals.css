@@ -62,3 +62,7 @@ button:focus,
 button:focus-visible {
   outline: none;
 }
+
+dialog {
+  color: transparent;
+}
