@@ -35,6 +35,10 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  border: none;
+  background-color: transparent;
+  padding-inline: 0;
+  padding-block: 0;
 }
 
 ul,
@@ -50,4 +54,15 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+a:focus,
+a:focus-visible,
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+dialog {
+  color: transparent;
 }
